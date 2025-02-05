@@ -11,13 +11,13 @@ def media(datos):
     return sum(datos) / len(datos)
 
 def calcular_mediana(datos):
-    """_summary_
+    """Esta funcion calcula la mediana
 
     Args:
-        datos (_type_): _description_
+        datos (_type_): lista de numeros
 
     Returns:
-        _type_: _description_
+        Float: flotante de la media aritmetica
     """
     datos_sorted = sorted(datos)
     n = len(datos)
